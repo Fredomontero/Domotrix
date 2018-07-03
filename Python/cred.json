@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "domotrix-6534a",
+  "private_key_id": "d96e92c490a3cc9eb562f50ee09ad335c57ab479",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQClaikofMksXmwH\nIh6xTgkltUvedewo/aJLZ7qn4gk8jhMaKRdCn8Hc6huzuMU4sEGGeo/JFgn5MhwB\nTlw+FcUhnUJ1HG+GZEFg/5xeuh1uhoB4y2O7oQbhZOj87Mywh4gRIjsFhwih++4h\n0K/ynrIejP9HfNYNOmEEobm/Xa81KiKIbwcSTnUpvOnLZbF3zHSUcMU0d+BdV2AB\nm6AIZ3uuLMZuZ1nb3NvTKVxTl+x/h1x8br/K/IcmZOpArc4d45cnF6qBjqWQJxtH\nbXYIgpqlFj2TbkfbvYGw8HKncDcRBvvjEhOyjCwMZh2X4YQ6gnyFcLy1bOpokeYE\n5tND5JztAgMBAAECggEAI7yNg06ATOpiVuEvddlY3xFtwHREDvAK89UHbbVHDxLX\nvCdj+9QVd0OJtBiHXVGw+lt4vHYbNf/2Lm8OPSiJZBN8U95Olt+Kg2j90LZPXP1I\nfLBeTd9CZAgf0OLc7wd85Uy6qR1NB2ftANe754QTEcge78Qf35A8/RnujhIwo+Cr\nL68rCj01+4OVOJ/Q6foGMUsAQRMZt/lDkTZ8XXX+nxW+EcP8h/VrCu75Mxnkemh6\nTVULAhScfoeuWMnBeZykL2BYpVIr+4w7tjStB2udoONbWon5OSN6VQ09K/lyHF/n\nrQmNaa9LNdfK9h5ZbZ0kjiIuEibmdLDtnYRZqxQd4QKBgQDaGYNYYV73Fpa7Fjw9\nBEFUgRzfFq6LJSE5h88gOmcIrJmcBV+UrAJI3ywlfbL4CZG2Sme/uxpQq87RheOm\nT18KMOOyZMjeMEljLwZI4ajlfEgqspyfEDr66xgO4eW15SGfMTAzeR8PA6774u4e\nqwO+yGT61VT25pShyoNpdXNejQKBgQDCKODwOxcO3Y1h/ovYRQE/d4XdMTG2Qd8X\nTU5JGj79JnZBoVifKzLuCYlXeEZ/swOr5z+XV0liaGl8Fo+WXjZD0ONu0Eo++7s3\naog276pgRBWg07tPt+lJ4YxR+fRwFFT9ylPrtdcatUzOov7b6bLIi7Q4cUqENLXD\n8SmC1NVP4QKBgQCW1GwUVAqD4LhPHBp+rBGuKjhYQ+xjyELI8ZYZmKomwo7c6o5m\nV+qgkM6MAvkhNiTyJ1TGsNOLFLZMCkccfemhN5xQhAiyODyYfi3fe0f9pMyX0rwj\n+OqBGtKhgDIHcDWnTTIjdtE25fo+snqw9N37M8U5/wzqTx5dIZtt9E7cBQKBgGTF\n0NH+6V3W0g3djvnF/vrQ71K5uMKO99phTlOU4sKDlvdDZfre8gUoP/d9PqIC6NHt\nKU1EiZsg9DbqgsYZyfJy1chrJU4BW89MZLyWsgha7hrWKi8bFmM5RJo7sIoHk4FR\n5TK+45FCLkZFxR+g8SEzmWt+KZ3qubikT9ZO3xQhAoGAJ5CZ3LWcUtynRhkgNhI8\nkf+Krx1u5dlxymCannby/ubvevxAcWRczuybLg/RrAi0ACzjRyvWIT+ntEdMyK53\n48s1XwScRzS3heJ4xc7MYd0MfZNJJibpb89NXjPpiFojFlUPGK5an7v3tCPHpty/\nwTdS351i/KoEMWiaeAiWd0c=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-n4nww@domotrix-6534a.iam.gserviceaccount.com",
+  "client_id": "118427314627001867666",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-n4nww%40domotrix-6534a.iam.gserviceaccount.com"
+}

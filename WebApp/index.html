@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Domotrix</title>
+    <link rel="icon" href="assets/favicon.png">
+    <!-- Bootstrap stuff -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row title_bar">
+            <img src="assets/logo.png">
+            <h1 class="main_title">Domotrix</h1>
+        </div>
+        <br><br>
+        <!-- Here we need the thumbnails for the devices -->
+        <div class="row">
+            <!-- The first one -->
+            <div class="col-sm-3 col-sm-offset-3">
+                <div class="thumbnail device">
+                    <img id="led_image" src="assets/led_off.png">
+                    <div class="caption">
+                    <h3>LED</h3>
+                    <h4 id="led_label">State: off</h4>
+                    <h5>Turn ON/OFF using the button</h5>
+                    <p><button class="btn btn-primary" onclick="toggleLed()">ON/OFF</button></p>
+                    </div>
+                </div>
+            </div>
+            <!-- The second one -->
+            <div class="col-sm-3">
+                <div class="thumbnail device">
+                    <img id="sensor_image" src="assets/sensor_off.png">
+                    <div class="caption">
+                    <h3>Sensor</h3>
+                    <h4 id="sensor_label">State: off</h4>
+                    <h5>The button is not working<h5>
+                    <p><button class="btn btn-primary" disabled>ON/OFF</button></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <!-- Footer -->
+        <div class="row the_footer">
+            <p>by: Montero</p>
+        </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+    <script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyDNPp333s7c1R8JjuyqDRhJWxPwLxWPNfY",
+        authDomain: "domotrix-6534a.firebaseapp.com",
+        databaseURL: "https://domotrix-6534a.firebaseio.com",
+        projectId: "domotrix-6534a",
+        storageBucket: "domotrix-6534a.appspot.com",
+        messagingSenderId: "360285775545"
+    };
+    firebase.initializeApp(config);
+    </script>
+    <script src="scripts/app.js"></script>
+</body>
+</html>
